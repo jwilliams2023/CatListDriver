@@ -1,3 +1,8 @@
+//CatList.h
+//Joseph Williams 
+//J00692590
+//The main file is CatListDriver.cpp
+
 #include "Cat.h"
 #include "CatList.h"
 #include <iostream>
@@ -92,8 +97,7 @@ int main() {
                 cin >> name;
 
                 list.searchCat(name);
-                cout << endl << "        ***Joseph Williams J00692590***" << endl << endl << endl
-                    << "--------------------------\n";
+                cout << endl << "        ***Joseph Williams J00692590***" << endl << endl << "--------------------------\n";
 
                 pressAnyKey();
                 break;
@@ -103,11 +107,11 @@ int main() {
                 string Cat1, Cat2;
                 cout << "Please enter the first name of Cat do you want to edit:" << endl;
                 cin >> Cat1;
-                cout << endl << "        ***Joseph Williams J00692590***" << endl << "Please enter new first name:" << endl;
+                cout << endl << "Please enter new first name:" << endl;
                 cin >> Cat2;
 
                 list.editCat(Cat1, Cat2);
-                cout << endl << endl << "--------------------------\n";
+                cout << endl << "        ***Joseph Williams J00692590***" << endl << "--------------------------\n";
 
                 pressAnyKey();
                 break;
@@ -119,7 +123,7 @@ int main() {
                 cin >> fname;
 
                 list.deleteCat(fname);
-                cout << endl << "        ***Joseph Williams J00692590***" << endl << endl << endl << "--------------------------\n";
+                cout << endl << "        ***Joseph Williams J00692590***" << endl << endl << "--------------------------\n";
                 
                 pressAnyKey();
                 break;
@@ -127,8 +131,7 @@ int main() {
             case 6: {
                 //displays the list front to back
                 list.showForward();
-                cout << endl << "        ***Joseph Williams J00692590***" << endl << endl << endl
-                    << "--------------------------\n";
+                cout << endl << "        ***Joseph Williams J00692590***" << endl << endl << "--------------------------\n";
                 
                 pressAnyKey();
                 break;
@@ -136,7 +139,6 @@ int main() {
             case 7: {
                 //displays the list back to front
                 list.showBackward();
-                cout << endl << "        ***Joseph Williams J00692590***" << endl << endl << "--------------------------\n";
                 cout << endl << "        ***Joseph Williams J00692590***" << endl << endl << "--------------------------\n";
                 
                 pressAnyKey();
