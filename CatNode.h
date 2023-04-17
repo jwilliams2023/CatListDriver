@@ -1,3 +1,8 @@
+//Cat.h
+//Joseph Williams 
+//J00692590
+//The main file is CatListDriver.cpp
+
 #pragma once
 #include "Cat.h"
 
